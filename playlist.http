@@ -1,0 +1,28 @@
+GET http://localhost:8082/playlist/
+
+###
+POST http://localhost:8082/playlist/
+Content-Type: application/json
+
+{
+    "playlistId":3,
+    "title":"songs"
+}
+
+###
+DELETE http://localhost:8082/playlist/3
+
+###
+PUT http://localhost:8082/playlist/
+Content-Type: application/json
+
+{
+    "playlistId":4,
+    "title":"Education"
+}
+
+###
+GET http://localhost:8082/playlist/1
+
+###
+GET http://localhost:8082/playlist/byProfile/1

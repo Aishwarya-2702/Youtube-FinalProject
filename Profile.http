@@ -1,0 +1,16 @@
+GET http://localhost:8081/profile/
+
+###
+POST http://localhost:8081/profile/
+Content-Type: application/json
+
+{
+    "profileId":3,
+    "email":"geetha27@gmail.com",
+    "fullName":"Siva sankar",
+    "dob":"31-05-1979",
+    "contact":"1234567890"
+}
+
+###
+GET http://localhost:8081/profile/3
